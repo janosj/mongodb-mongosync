@@ -13,7 +13,7 @@ Convenience scripts are provided to install *mongosync* and run various *mongosy
 |Script|Purpose|
 |---|---|
 | 0a-node-setup.sh | Run once. Sets up node dependencies for the test clients.
-| 0b-install-mongosynch.sh | Run once. Downloads and installs mongosync on your local machine. You may need to adjust this to get a newer version or use a platform other than MacOS.
+| 0b-install-mongosync.sh | Run once. Downloads and installs mongosync on your local machine. You may need to adjust this to get a newer version or use a platform other than MacOS.
 | 1-launchRS.src.sh | Launches a replica set on your local machine to act as the source cluster. Defaults to a 1-node RS, but you can specify larger node counts. Mongosync just requires the OpLog.
 | 2-launchRS.dest.sh | Launches a replica set on your local machine to act as the destination cluster. Again, defaults to a 1-node RS but you can make it larger. To use Atlas, don't run this script, just modify MDB_URI_DEST in demo.conf.
 | 3-runInserts.sh | Launches a node.js client that performs continual inserts at the source using a specified writeConcern.
@@ -30,7 +30,7 @@ Convenience scripts are provided to install *mongosync* and run various *mongosy
 - *launchRS* requires MongoDB to be installed (but not running) on your local machine.
 - mongosh (only required by checkRSstatus.sh, which is maybe not even useful here)
 - The two test clients require node.js.
-- The mongosync binary is downloaded and installed (i.e. extracted) by the install-mongosync script.
+- The mongosync binary is downloaded and installed (i.e. extracted) by the *install-mongosync* script.
 
 
 

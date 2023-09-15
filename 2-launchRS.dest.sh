@@ -28,7 +28,7 @@ for (( i=1; i<=$node_count; i++ ))
 do 
   echo "Launching MDB$i on port $db_port..."
 
-  db_path=$BASE_DB_PATH/dest/db$db_port/
+  db_path=$BASE_DB_PATH/dest/db$db_port
   mkdir -p $db_path
 
   # 0.25 is the minimum wiredTigerCacheSizeGB
