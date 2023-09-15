@@ -1,0 +1,24 @@
+{
+  "name": "mongodb-mongosync",
+  "version": "1.0.0",
+  "description": "Command-line demonstration of MongoDB Cluster-to-Cluster Sync",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janosj/mongodb-mongosync.git"
+  },
+  "keywords": [],
+  "author": "Jonathan Janos",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/janosj/mongodb-mongosync/issues"
+  },
+  "homepage": "https://github.com/janosj/mongodb-mongosync#readme",
+  "dependencies": {
+    "mongodb": "^5.8.1",
+    "random-words": "^1.3.0"
+  }
+}
